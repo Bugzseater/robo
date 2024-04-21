@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #37023e;
+    
+    /* background-color: #2f0235; */
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
+}
+.navbar{
+    display: flex;
+   flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 10px;
+    /* padding-right: 10px; */
+    padding-left: 80%;
+    position: fixed;
+}
+.navbar button{
+
+   position: relative;
+    font-size: 12px;
+    /* text-align: center; */
+    color: #ffffff;
+    background-color: #710280;
+    border: none;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    min-width: 100%;
+    background-color: #37023e;
+    /* background-color: #51025b;
+    border-radius: 20px;
+    margin: 10px; */
+}
+.image{
+    width: 100%;
+  height: 90vh;
+    /* background-color: red; */
+    background-image: url(walle\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title h1 {
+    
+    font-size: 4rem;
+    color: azure;
+}
+
+.title h3 {
+    font-size: 1rem;
+    color: azure;
+}
+
+button {
+    padding: 10px;
+    border: 1px solid #fff;
+    background-color: #51025b;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: #bc18d1;
+}
+
+.abou {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    height: auto;
+    width: 100vw;
+    background-color: #41034a;
+    /* background-color: #51025b;
+    border-radius: 20px;
+    margin: 10px; */
+
+}
+
+
+.titleab h1 {
+    font-size: 2rem;
+    color: rgb(133, 239, 12);
+}
+
+.pra {
+    width: 80%;
+    text-align: justify;
+    color: #fff;
+}
+
+.pra h2 {
+    color: #fd3232;
+}
+
+.footer {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fd3232;
+}
+
+.footer-content{
+    text-align: center;
+}
+
+.img {
+    background-image: url(walle\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 50vh;
+}
