@@ -10,5 +10,5 @@ ScrollReveal().reveal('.title', { delay: 500, origin: 'bottom' });
 ScrollReveal().reveal('.titleab', { delay: 500 });
 ScrollReveal().reveal('.img', { delay: 500, origin: 'left' });
 ScrollReveal().reveal('.dis', { delay: 500, origin: 'right' });
-ScrollReveal().reveal('footer', { delay: 500, origin: 'bottom' });
+// ScrollReveal().reveal('footer', { delay: 500, origin: 'bottom' });
 
